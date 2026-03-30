@@ -249,8 +249,8 @@ def plot_attitude_distribution(agents, output_folder, filename):
 
 
 if __name__ == "__main__":
-    file_path = r"C:\Users\Naina\OneDrive\Documents\meow\UoA\ESS10-integrated file\ESS10e03_3.csv"
-    output_folder = r"C:\Users\Naina\OneDrive\Documents\meow\UoA\simulation_outputs"
+    file_path = "ess_social cohesion_data.csv"
+    output_folder = "outputs"
     os.makedirs(output_folder, exist_ok=True)
 
     country_code = "GB"
